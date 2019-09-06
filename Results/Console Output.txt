@@ -1,0 +1,187 @@
+
+******
+Type 2 event (exit from teller 2)
+arrTime: 905, serTime = 4, waiTime = 15, at time: 918
+cust throughtime tt: 13
+total throughtime TT: 13
+1 customers have exited the bank
+918, 7
+920, 1
+920, 5
+924, 2
+925, 6
+ 
+
+******
+Type 7 Event:
+Cust Arrived from file: 918 5 5
+Time: 918
+920, 1
+920, 5
+924, 2
+924, 7
+925, 6
+ 
+
+******
+Type 1 event (exit from teller 1)
+arrTime: 908, serTime = 3, waiTime = 20, at time: 920
+cust throughtime tt: 12
+total throughtime TT: 25
+2 customers have exited the bank
+920, 5
+923, 1
+924, 2
+924, 7
+925, 6
+ 
+
+******
+Type 5 Event
+Task processed: 916 3
+At time: 920
+923, 1
+923, 5
+924, 2
+924, 7
+925, 6
+ 
+
+******
+Type 1 event (exit from teller 1)
+arrTime: 913, serTime = 3, waiTime = 10, at time: 923
+cust throughtime tt: 10
+total throughtime TT: 35
+3 customers have exited the bank
+923, 5
+924, 2
+924, 7
+925, 6
+927, 1
+ 
+
+******
+Type 5 Event
+Task processed: 913 3
+At time: 923
+924, 2
+924, 7
+925, 6
+927, 1
+935, 5
+ 
+
+******
+Type 2 event (exit from teller 2)
+arrTime: 912, serTime = 6, waiTime = 15, at time: 924
+cust throughtime tt: 12
+total throughtime TT: 47
+4 customers have exited the bank
+***Cust already left bank.
+924, 7
+925, 6
+927, 1
+935, 5
+ 
+
+******
+Type 7 Event:
+Cust Arrived from file: 924 10 15
+Time: 924
+925, 6
+927, 1
+930, 7
+934, 2
+935, 5
+ 
+
+******
+Type 6 Event:
+Task Arrived from file: 925 2
+Time: 925
+927, 1
+930, 7
+933, 6
+934, 2
+935, 5
+ 
+
+******
+Type 1 event (exit from teller 1)
+arrTime: 915, serTime = 4, waiTime = 15, at time: 927
+cust throughtime tt: 12
+total throughtime TT: 59
+5 customers have exited the bank
+930, 7
+933, 6
+934, 2
+935, 5
+ 
+
+******
+Type 7 Event:
+Cust Arrived from file: 930 2 10
+Time: 930
+932, 1
+933, 6
+934, 2
+935, 5
+ 
+
+******
+Type 1 event (exit from teller 1)
+arrTime: 930, serTime = 2, waiTime = 10, at time: 932
+cust throughtime tt: 2
+total throughtime TT: 61
+6 customers have exited the bank
+933, 6
+934, 2
+935, 5
+ 
+
+******
+Type 6 Event:
+Task Arrived from file: 933 1
+Time: 933
+934, 2
+935, 5
+ 
+
+******
+Type 2 event (exit from teller 2)
+arrTime: 924, serTime = 10, waiTime = 15, at time: 934
+cust throughtime tt: 10
+total throughtime TT: 71
+7 customers have exited the bank
+935, 5
+ 
+
+******
+Type 5 Event
+Task processed: 910 12
+At time: 935
+936, 5
+ 
+
+******
+Type 5 Event
+Task processed: 933 1
+At time: 936
+938, 5
+ 
+
+******
+Type 5 Event
+Task processed: 925 2
+At time: 938
+ 
+******
+Simulation Complete. Results:
+Current time: 938
+Total customer throughtime: 71
+Total customer count: 7
+******
+Printing Eventlist...
+ 
+Printing Cust Queue...queue is empty
+Printing Tasks Stack...stack is empty
